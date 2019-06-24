@@ -66,8 +66,59 @@ console.log(crazyObject.larry.characters);
 
 
 
+// Object-ception
+
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null;
+console.log(inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  tips for the bond question
+// $100101 + $121212 wont give you the actual sum
+// strings must be converted into a number
+// make a new array that has all the commas and $ signs in them
+// then just add the 1st array. 
 
 
 
