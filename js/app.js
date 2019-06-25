@@ -140,7 +140,8 @@ for(let key in bondFilms) {
 
 console.log(oddBonds);
 
-//7.
+//7. Had lots of issues with this one. I got to the point where i have a list
+// of strings, without the $. i cant seem to get rid of the commas.
 
 let cashBonds = [];
 let cash2 = [];
